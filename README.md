@@ -6,9 +6,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+in the /data Folder:
+
+### `npm install`
+
+Install ExpressJS and FS dependencies from npm.
+
 ### `npm run server`
 
-Runs the fake JSON server for making the available data available to the front-end application.
+Runs the fake JSON server in the /data folder for making the data available to the front-end application.
+
+In the react-quiz main directory:
+
+### `npm install`
+
+Install the necessary dependencies from npm.
 
 ### `npm start`
 
