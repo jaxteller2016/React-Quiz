@@ -79,8 +79,7 @@ export default function App() {
     (prev, cur) => prev + cur.points,
     0
   );
-  const URL =
-    'https://questions-json-server-for-react-quiz-app.onrender.com:10000';
+  const URL = 'https://questions-json-server-for-react-quiz-app.onrender.com';
 
   useEffect(function () {
     fetch(`${URL}/questions`)
